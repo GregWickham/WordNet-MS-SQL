@@ -4,7 +4,7 @@ This is an alternate version (NOT A FORK) of Michal Měchura's repo of the same 
 
 https://github.com/michmech/wordnet-mssql
 
-The database schema and the data in this SQL Server database are exactly the same as in Michal's.  In this version I have added a number of views and table-valued functions.
+The database schema and the data in this SQL Server database are exactly the same as in Michal's; however this version adds a number of views and table-valued functions to the database.
 
 The views are intended to make it easier to explore the contents of WordNet.
 
