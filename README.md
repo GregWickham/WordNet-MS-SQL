@@ -8,4 +8,4 @@ The database schema and the data in this SQL Server database are exactly the sam
 
 The views are intended to make it easier to explore the contents of WordNet.
 
-The functions are required to support this WordNet browser UI, written for WPF:
+The functions are required to support [this WordNet browser UI](https://github.com/GregWickham/WordNet_GUI), written for WPF.
