@@ -1,11 +1,13 @@
-# WordNet 3.0, version for SQL Server 2005, with views and functions
+# WordNet 3.0, version for SQL Server 2005, with views, functions, and stored procedures
 
-This is an alternate version (NOT A FORK) of Michal Měchura's repo of the same name:
+This is an MS-SQL database containing WordNet 3.0 that supports [this WordNet GUI editor](https://github.com/GregWickham/WordNet_GUI), written for WPF.
+
+It's based on the MS-SQL database created by Michal Měchura:
 
 https://github.com/michmech/wordnet-mssql
 
-The database schema and the data in this SQL Server database are exactly the same as in Michal's original database; however this version adds a number of views and table-valued functions.
+The database schema has been extensively reworked, some table rows have been removed (but the original data is all there), and I've added a number of views, stored procedures, and functions.
 
 The views are intended to make it easier to explore the contents of WordNet.
 
-The functions are required to support [this WordNet browser UI](https://github.com/GregWickham/WordNet_GUI), written for WPF.
+The functions and stored procedures support [the WordNet editor.](https://github.com/GregWickham/WordNet_GUI)
