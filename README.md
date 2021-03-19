@@ -1,6 +1,6 @@
 # WordNet 3.0, version for SQL Server 2005, with views, functions, and stored procedures
 
-This is an MS-SQL database containing WordNet 3.0 that supports [this WordNet GUI editor](https://github.com/GregWickham/WordNet_GUI), written for WPF.
+This is an MS-SQL database containing WordNet 3.0, that supports [this WordNet GUI editor](https://github.com/GregWickham/WordNet_GUI), written for WPF.  The .zip file contains an MDF file that you can Attach in SQL Server.
 
 It's based on the MS-SQL database created by Michal Měchura:
 
@@ -11,3 +11,5 @@ The database schema has been extensively reworked, some table rows have been rem
 The views are intended to make it easier to explore the contents of WordNet.
 
 The functions and stored procedures support [the WordNet editor.](https://github.com/GregWickham/WordNet_GUI)
+
+The database defines a user named WordNetEditor, which has read / write / execute privileges on all the database objects needed by the WPF editor.  Ther simplest way to get the editor running is probably to create a login on your SQL Server instance that corresponds to this user.
