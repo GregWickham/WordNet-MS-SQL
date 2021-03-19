@@ -12,4 +12,4 @@ The views are intended to make it easier to explore the contents of WordNet.
 
 The functions and stored procedures support [the WordNet editor.](https://github.com/GregWickham/WordNet_GUI)
 
-The database defines a user named WordNetEditor, which has read / write / execute privileges on all the database objects needed by the WPF editor.  Ther simplest way to get the editor running is probably to create a login on your SQL Server instance that corresponds to this user.
+The database defines a user named WordNetEditor, which has read / write / execute privileges on all the database objects needed by the WPF editor.  The simplest way to get the editor running is probably to create a login on your SQL Server instance that corresponds to this user.
