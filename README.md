@@ -1,6 +1,6 @@
 # WordNet 3.0, version for SQL Server 2005, with views, functions, and stored procedures
 
-This is an MS-SQL database containing WordNet 3.0, that supports [this WordNet GUI editor](https://github.com/GregWickham/WordNet_GUI) written for WPF.  The .zip file contains an MDF file that you can Attach in SQL Server.
+This is an MS-SQL database containing WordNet 3.0, that supports [this WordNet GUI editor](https://github.com/GregWickham/WordNet_GUI) written for WPF.  The .zip file contains an MDF file that you can attach in SQL Server.
 
 It's based on the MS-SQL database created by Michal Měchura:
 
